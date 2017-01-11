@@ -1,9 +1,8 @@
 /* 
   File:   main.cpp
   Author: Victor, Cuchilla
-  Created on January 3, 2017, 12:15 PM
-  Purpose:  Template to be used in all programming
-            projects!
+  Created on January 10, 2017, 1:15 PM
+  Purpose:  
  */
 
 //System Libraries
