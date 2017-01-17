@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Truth_Table
+PROJECTNAME=Truth_Table_Turnary_Operator
 
 # Active Configuration
 DEFAULTCONF=Debug

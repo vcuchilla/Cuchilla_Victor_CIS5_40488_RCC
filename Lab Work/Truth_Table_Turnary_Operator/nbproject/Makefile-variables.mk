@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=truth_table
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/truth_table
+CND_ARTIFACT_NAME_Debug=truth_table_turnary_operator
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/truth_table_turnary_operator
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=truthtable.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/truthtable.tar
+CND_PACKAGE_NAME_Debug=truthtableturnaryoperator.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/truthtableturnaryoperator.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=truth_table
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/truth_table
+CND_ARTIFACT_NAME_Release=truth_table_turnary_operator
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/truth_table_turnary_operator
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=truthtable.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/truthtable.tar
+CND_PACKAGE_NAME_Release=truthtableturnaryoperator.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/truthtableturnaryoperator.tar
 #
 # include compiler specific variables
 #
