@@ -1,8 +1,8 @@
 /* 
   File:   main.cpp
   Author: Victor, Cuchilla
-  Created on January 17, 2017, 12:09 PM
-  Purpose:   
+  Created on January 20, 2017, 7:07 PM
+  Purpose:  
  */
 
 //System Libraries
@@ -21,11 +21,11 @@ using namespace std;
 //Executable code begins here!!!
 int main(int argc, char** argv) {
     //Declare Variables
-    
-    //Input values
-    
+
+    //Input values 
+
     //Process by mapping inputs to outputs
-    
+
     //Output values
 
     //Exit stage right!
