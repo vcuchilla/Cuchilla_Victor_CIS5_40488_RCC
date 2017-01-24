@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Victor Cuchilla
+  Author: Dr. Mark E. Lehr
   Created on January 4, 2017, 1:45 PM
   Purpose:  Land Calculation
  */
@@ -22,7 +22,7 @@ const int CNVACFT=43560;//Conversion Acres to Feet
 //Executable code begins here!!!
 int main(int argc, char** argv) {
     //Declare Variables
-    int nAcres,nFt2;//Number of acres and square ft
+    int nAcres,nFt2;
     
     //Input values
     cout<<"This is a conversion program "<<endl;

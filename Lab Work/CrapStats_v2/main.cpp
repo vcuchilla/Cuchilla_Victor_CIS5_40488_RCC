@@ -1,15 +1,15 @@
 /* 
   File:   main.cpp
-  Author: Victor, Cuchilla
-  Created on January 19, 2017, 12:36 PM
-  Purpose: Statistics for craps.
+  Author: Dr. Mark E. Lehr
+  Created on January 18, 2017, 10:35 AM
+  Purpose:  Statistics for Craps version 2
  */
 
 //System Libraries
-#include <iostream>//Input Output Library
+#include <iostream>//Input Output library
 #include <cstdlib> //Random numbers
 #include <ctime>   //Time to set the Seed
-#include <fstream> //File Stream
+#include <fstream> //File stream library
 using namespace std;
 
 //User Libraries
@@ -17,7 +17,10 @@ using namespace std;
 //Global Constants
 //Such as PI, Vc, -> Math/Science values
 //as well as conversions from system of units to another
-const short PERCENT = 100;
+const short PERCENT=100;//Percentage Conversion
+const int   MILLION=1e6;//Million
+const int   HUNTHSD=1e5;//100,000
+
 //Function Prototypes
 
 //Executable code begins here!!!
@@ -25,7 +28,7 @@ int main(int argc, char** argv) {
     //Set the random number seed
     srand(static_cast<unsigned int>(time(0)));
     
-    //Instantiate and Open Files
+    //Instantiate and Open files
     ifstream in;
     ofstream out;
     in.open("NumberOfGames.dat");
@@ -39,15 +42,16 @@ int main(int argc, char** argv) {
     //Input the number of games
     //Last line will be number of games
     while(in>>nGames);
-    nGames=nGames>1e6?1e5:nGames;
+    nGames=nGames>MILLION?HUNTHSD:nGames;
+    
     //Loop and take Dice statistics
     for(int game=1;game<=nGames;game++){
         //Call random number generator for the dice
         char die1=rand()%6+1;//Value from 1 to 6
         char die2=rand()%6+1;//Value from 1 to 6
         char sum=die1+die2;
-        unsigned int cntThrw=1;
         avgThrw++;
+        unsigned int cntThrw=1;
         //Now determine wins or losses
         switch(sum){
             case 2:case 3:case 12:losses++;break;
@@ -77,8 +81,10 @@ int main(int argc, char** argv) {
     out<<"The total wins = "<<wins<<endl;
     out<<"The total losses = "<<losses<<endl;
     out<<"The total number of Crap games played = "<<wins+losses<<endl;
-    out<<"Percentage wins = "<<100.0f*wins/nGames<<"%"<<endl;
-    out<<"Percentage losses = "<<100.0f*losses/nGames<<"%"<<endl;
+    out<<"Percentage wins = "
+            <<static_cast<float>(PERCENT)*wins/nGames<<"%"<<endl;
+    out<<"Percentage losses = "
+            <<static_cast<float>(PERCENT)*losses/nGames<<"%"<<endl;
     out<<"Average number of throws per game = "
             <<static_cast<float>(avgThrw)/nGames<<endl;
     out<<"Maximum number of throws in a game = "<<maxThrw<<endl;

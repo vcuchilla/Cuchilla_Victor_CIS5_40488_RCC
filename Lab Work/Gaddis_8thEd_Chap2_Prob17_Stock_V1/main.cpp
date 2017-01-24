@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Victor, Cuhilla
+  Author: Dr. Mark E. Lehr
   Created on January 4, 2017, 12:05 PM
   Purpose:  Stock Calculation
  */

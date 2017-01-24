@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Victor, Cuchilla
+  Author: Dr. Mark E. Lehr
   Created on January 5, 2017, 1:15 PM
   Purpose:  Free Fall
  */

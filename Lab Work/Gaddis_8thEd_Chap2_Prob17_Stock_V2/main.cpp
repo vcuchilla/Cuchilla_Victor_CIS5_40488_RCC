@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Victor, Cuchilla
+  Author: Dr. Mark E. Lehr
   Created on January 4, 2017, 12:05 PM
   Purpose:  Stock Calculation
  */
@@ -33,7 +33,7 @@ int main(int argc, char** argv) {
     
     //Output values
     cout<<"Stock Price/Share= $   "<<static_cast<int>(stkPrce)<<"/share"<<endl;
-    cout<<"Number of Shares =    "<<nShares<<" shares"<<endl;
+    cout<<"Number of Shares =    "<<nShares<<"shares"<<endl;
     cout<<"Commission              "<<comishn<<endl;
     cout<<"Stock Price Paid = $"<<stkPaid<<endl;
     cout<<"Commission Paid  = $  "<<comPaid<<endl;

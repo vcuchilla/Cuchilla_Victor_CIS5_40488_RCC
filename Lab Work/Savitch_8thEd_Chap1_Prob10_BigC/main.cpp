@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Victor, Cuchilla
+  Author: Dr. Mark E. Lehr
   Created on January 5, 2017, 12:20 PM
   Purpose:  Output Big C
  */
