@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=CrapStats_V2
+PROJECTNAME=CrapStats_v2
 
 # Active Configuration
 DEFAULTCONF=Debug

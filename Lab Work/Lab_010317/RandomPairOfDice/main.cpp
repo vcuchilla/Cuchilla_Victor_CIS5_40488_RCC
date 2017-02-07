@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Dr. Mark E. Lehr
+  Author: Victor Cuchilla
   Created on January 9, 2017, 11:30 AM
   Purpose:  Using the random number generator
  */

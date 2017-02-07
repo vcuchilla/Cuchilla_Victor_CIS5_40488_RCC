@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Dr. Mark E. Lehr
+  Author: Victor Cuchilla
   Created on January 12, 2017, 11:15 AM
   Purpose:  Grade Switch - Case
  */

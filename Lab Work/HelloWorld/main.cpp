@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Dr. Mark E. Lehr
+  Author: Victor Cuchilla
   Created on January 3, 2017, 12:15 PM
   Purpose:  1st Program called Hello World
  */

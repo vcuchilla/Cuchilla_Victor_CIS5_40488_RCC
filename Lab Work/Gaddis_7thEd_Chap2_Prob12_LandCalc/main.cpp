@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Dr. Mark E. Lehr
+  Author: Victor Cuchilla
   Created on January 4, 2017, 1:45 PM
   Purpose:  Land Calculation
  */

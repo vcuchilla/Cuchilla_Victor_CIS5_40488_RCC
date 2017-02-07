@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Dr. Mark E. Lehr
+  Author: Victor Cuchilla
   Created on January 17, 2017, 11:05 AM
   Purpose:  Grade with Do-While Loop
  */

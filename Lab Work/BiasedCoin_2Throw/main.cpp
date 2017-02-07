@@ -1,8 +1,8 @@
 /* 
   File:   main.cpp
-  Author: Dr. Mark E. Lehr
+  Author: Victor Cuchilla
   Created on January 24, 2017, 12:23 PM
-  Purpose:  Biased Coint 2 at a time
+  Purpose:  Biased Coin 2 at a time
  */
 
 //System Libraries

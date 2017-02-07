@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Dr. Mark E. Lehr
+  Author: Victor Cuchilla
   Created on January 17, 2017, 12:10 PM
   Purpose:  Example Menu to be used in Homework
  */

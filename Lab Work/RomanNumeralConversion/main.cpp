@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Dr. Mark E. Lehr
+  Author: Victor Cuchilla
   Created on January 24, 2017, 10:53 AM
   Purpose:  Convert to Roman Numerals
  */

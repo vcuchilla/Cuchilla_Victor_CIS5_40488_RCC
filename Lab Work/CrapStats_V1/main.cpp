@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Dr. Mark E. Lehr
+  Author: Victor Cuchilla
   Created on January 18, 2017, 10:35 AM
   Purpose:  Statistics for Craps
  */

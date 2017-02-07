@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Dr. Mark E. Lehr
+  Author: Victor Cuchilla
   Created on January 3, 2017, 12:15 PM
   Purpose:  Penny Doubling for Salary and pay
             31 days good for using integers

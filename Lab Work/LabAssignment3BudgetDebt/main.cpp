@@ -1,6 +1,6 @@
 /* 
   File:   main.cpp
-  Author: Dr. Mark E. Lehr
+  Author: Victor Cuchilla
   Created on January 16, 2017, 7:00 PM
   Purpose:  Percentage budget and Debt/Person
   Write a program to calculate the percentage of the federal budget that the 
