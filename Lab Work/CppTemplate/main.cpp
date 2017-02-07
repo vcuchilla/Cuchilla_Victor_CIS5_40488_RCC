@@ -1,13 +1,13 @@
 /* 
   File:   main.cpp
-  Author: Dr. Mark E. Lehr
-  Created on January 3, 2017, 12:15 PM
+  Author: Victor Cuchilla
+  Created on February 2nd, 2017, 11:30 PM
   Purpose:  Template to be used in all programming
             projects!
  */
 
 //System Libraries
-#include <iostream>
+#include <iostream> //Input output stream
 using namespace std;
 
 //User Libraries
