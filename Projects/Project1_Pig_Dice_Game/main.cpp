@@ -2,7 +2,7 @@
   File:   main.cpp
   Author: Victor Cuchilla
   Created on January 28, 2017, 11:30 PM
-  Purpose: Simple "pig" dice game. This game plays a dice game from 1-3 players.
+  Purpose: Simple "Pig" dice game. This game plays a dice game from 1-3 players.
  */
 
 //System Libraries
@@ -98,7 +98,7 @@ int main(int argc, char** argv) {
             cin.ignore(); //ignore enter in buffer key
             //Call random number generator for the dice
             int die=rand()%6+1;//Value from 1 to 6
-            for(plyr1, die, nTurns, nPlyrs; die!=1 && plyr1<winScr;nTurns++)
+            for(plyr1=0, die, nTurns, nPlyrs; die!=1 && plyr1<winScr;nTurns++)
             {
               if (die==2) plyr1=pow(plyr1+2, 2); //Score squared if die=2
               else if (die==3) plyr1>0?plyr1--:plyr1==0; //Ternary Operator
@@ -162,7 +162,7 @@ int main(int argc, char** argv) {
             cin.ignore(); //ignore enter in buffer key
             //Call random number generator for the dice
             int die=rand()%6+1;//Value from 1 to 6
-            for(plyr1, die, nTurns, nPlyrs; die!=1; nTurns++)
+            for(plyr1=0, die, nTurns, nPlyrs; die!=1; nTurns++)
             {
               if (die==2) plyr1=pow(plyr1+2, 2); //Score squared if die=2
               else if (die==3) plyr1>0?plyr1--:plyr1==0; 
@@ -191,6 +191,7 @@ int main(int argc, char** argv) {
             die=rand()%6+1;//Value from 1 to 6
             while(die!=1)
             {
+              plyr2 = 0;
               if (die==2) plyr2=pow(plyr2+2, 2); //Score squared if die=2
               else if (die==3) plyr2>0?plyr2--:plyr2==0; 
                                             //score decrements if 3 is rolled
@@ -274,7 +275,7 @@ int main(int argc, char** argv) {
             cin.ignore(); //ignore enter in buffer key
             //Call random number generator for the dice
             int die=rand()%6+1;//Value from 1 to 6
-            for(plyr1, die, nTurns, nPlyrs; die!=1; nTurns++)
+            for(plyr1=0, die, nTurns, nPlyrs; die!=1; nTurns++)
             {
               if (die==2) plyr1=pow(plyr1+2, 2); //Score squared if die=2
               else if (die==3) plyr1>0?plyr1--:plyr1==0; 
@@ -303,6 +304,7 @@ int main(int argc, char** argv) {
             die=rand()%6+1;//Value from 1 to 6
             while(die!=1)
             {
+              plyr2=0;
               if (die==2) plyr2=pow(plyr2+2, 2); //Score squared if die=2
               else if (die==3) plyr2>0?plyr2--:plyr2==0; 
                                             //score decrements if 3 is rolled
@@ -329,7 +331,7 @@ int main(int argc, char** argv) {
             cin.ignore(); //ignore enter in buffer key
             //Call random number generator for the dice
             die=rand()%6+1;//Value from 1 to 6
-            for(plyr3, die, nTurns, nPlyrs; die!=1; nTurns++)
+            for(plyr3=0, die, nTurns, nPlyrs; die!=1; nTurns++)
             {
               if (die==2) plyr3=pow(plyr3+2, 2); //Score squared if die=2
               else if (die==3) plyr3>0?plyr3--:plyr3==0; 
@@ -447,14 +449,6 @@ int main(int argc, char** argv) {
                 keeplay=true;
             else if (key=='N' || key=='n')
                 keeplay=false;
-            else 
-            {
-                cout<<"You have entered something other than Y or N.\n";
-                cout<<"Do you wish to play again? Y or N\n";
-                char key; //Decide if player wants to play again
-                cin.get(key); 
-                cin.ignore();
-            }
                 //If number of players is not a number end program or start over
         }
         
